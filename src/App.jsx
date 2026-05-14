@@ -49,7 +49,7 @@ function App() {
             backgroundImage: `url('https://images.pexels.com/photos/5466803/pexels-photo-5466803.jpeg')`,
         }}
     >
-        <div className="w-full">
+        <div className="w-full m-5">
             <div className="w-full max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
                 <form
                     onSubmit={(e) => {
