@@ -7,13 +7,13 @@ import './App.css'
 function App() {
 
   const [amount, setAmount] = useState(0)
-  const [currency, setCurrency] = useState("usd")
+  const [currency, setCurrency] = useState("aed")
   
   const [convertedAmount, setConvertedAmount] = useState(0)
 
   const currencyInfo = useCurrencyInfo(currency)
 
-  const [to, setTo] = useState("inr")
+  const [to, setTo] = useState("pkr")
   const [from, setFrom] = useState(currency)
  
   const option = Object.keys(currencyInfo)
